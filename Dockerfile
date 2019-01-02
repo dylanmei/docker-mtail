@@ -1,4 +1,4 @@
-FROM golang:1.5-alpine
+FROM golang:alpine
 
 WORKDIR /go/src/github.com/google/mtail
 RUN apk add --update --no-cache --virtual build-dependencies git make \
